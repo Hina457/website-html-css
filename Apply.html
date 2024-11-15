@@ -83,6 +83,35 @@ ul li a:hover{
          margin-top:80px;
          font-family: sans-serif;
       }
+      .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 45%;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.cn span{
+    color: #ff7200;
+    font-size: 65px
+}
+
       </style>
 </head>
 <body>
@@ -110,7 +139,7 @@ ul li a:hover{
             <form >
                 <table width ="700" border="0" cellspacing ="10" cellpadding ="20" >
                 <tr>
-                    <th colspan="2" align="left" style="color:white;background-color:darkslategray; font-size:60px;">personal Information</th>
+                    <th colspan="2" align="left" style="color:white;background-color:#ff7200; font-size:60px;">personal Information</th>
                 </tr>
                 <tr>
                     <td width="210"><b>Full Name</b></td>
@@ -187,7 +216,7 @@ ul li a:hover{
                     
         
                        <tr>
-                        <th colspan="2" align="left" style="color:white; background-color: darkslategray; font-size:60px;"><b>program Selection</b></th>
+                        <th colspan="2" align="left" style="color:white; background-color: #ff7200;font-size:60px;"><b>program Selection</b></th>
                        </tr>
                        <tr>
                         <td><b>Standard 2022/Intensive 2024</b></td>
@@ -218,11 +247,15 @@ ul li a:hover{
                  <tr>
                     <td><b>Photo:</b></td><td><input type="file" name="data"></td>
                  </tr>
-                <tr1><td><input  type="submit" name="submit"></td></tr1>
+             
                 </table>
             </form>
             </center>
-            </div>
-        </div>
+        
+        
+        
+        <button class="cn"><a href="#">Submit</a></button>
+        
+        </div></div>
 </body>
 </html>
