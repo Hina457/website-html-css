@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(7, 7, 7, 0.5)50%,rgba(0,0,0,0.5)50%), url(PIC14.jpg);
+    background-position: center;
+    background-size: cover;
+    height:1000PX;
+}
+     
+     
+       .Navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family:serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+         tr{
+             background-color:beige;
+             font-family:'Times New Roman', Times, serif;
+             font-size: 12pt;
+         }
+        
+      .arti{
+      
+         margin-top:80px;
+         font-family: sans-serif;
+      }
+      </style>
+</head>
+<body>
+    <div class="main">
+        <div class="Navbar">
+            <div class="icon">
+                <h2 class="logo">ITCourses</h2>
+            </div>
+    
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Courses.html">Courses</a></li>
+                    <li><a href="Apply.html">Apply</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+              </div>
+                
+    </div>
+            <center>
+              
+            <h1 class="arti">Artificial Intelligence</h1>
+            <h2 style="font-family: sans-serif ">Admission form</h2>
+            <h3 style="font-family:ans-serif;">program 2024</h3>
+            <form >
+                <table width ="700" border="0" cellspacing ="10" cellpadding ="20" >
+                <tr>
+                    <th colspan="2" align="left" style="color:white;background-color:darkslategray; font-size:60px;">personal Information</th>
+                </tr>
+                <tr>
+                    <td width="210"><b>Full Name</b></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><b>Father Name</b></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><b>Date of birth</b></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><b>Gender</b></td>
+                    <td><input type="radio" name="g">Male<input type="radio"name="g">Female</td>
+                </tr>
+                <tr>
+                    <td><b>Age</b></td>
+                    <td><input type="number" min="16" max="45"></td>
+                </tr>
+                <tr>
+                    <td><b>Enroll course</b></td>
+                    <td><input type="checkbox" box ="c">Html<input type="checkbox" box = "c">Css<input type="checkbox"box ="c">javascript</td>
+                </tr>
+                <tr>
+                    <td><b>Home Address</b></td>
+                    <td><textarea rows="3" cols="25"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><b>Country</b></td>
+                        <td>
+                            <select>
+                                <option>Select Country</option>
+                                <option>Pakistan</option>
+                                <option>Canada</option>
+                                <option>Australia</option>
+                                <option>Dubai</option>
+                                <option>itlay</option>
+                                <option>Turkey</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>City</b></td>
+                        <td>
+                        <select>
+                            <option>karachi</option>
+                            <option>Lahore</option>
+                            <option>Islamabad</option>
+                            <option>Sialkot</option>
+                            <option>Sarghoda</option>
+                            <option>Faislabad</option>
+                            <option>Rawalpindi</option>
+                        </select>
+                        </td>
+                    </tr>
+        
+        
+               <TR>
+            <td><b>Home Telephone</b></td>
+            <td><input type="number"></td>
+               </TR>
+        
+               <TR>
+                <td><b>Mobile Number</b></td>
+                <td><input type="number"></td>
+                   </TR>
+        
+                   <TR>
+                    <td><b>Email Address</b></td>
+                    <td><input type="email"></td>
+                       </TR>
+                    
+        
+                       <tr>
+                        <th colspan="2" align="left" style="color:white; background-color: darkslategray; font-size:60px;"><b>program Selection</b></th>
+                       </tr>
+                       <tr>
+                        <td><b>Standard 2022/Intensive 2024</b></td>
+                        <td><input type="radio"name="g">April<input type="radio" name="g">june</td>
+                       </tr>
+                       <tr>
+                        <td><b>Standard</b></td>
+                        <td><input type="radio"name="g">October<input type="radio" name="g">November</td>
+                       </tr>
+        
+                       <tr>
+                        <td><b>Extended</b></td>
+                        <td><input type="radio"name="g">February<input type="radio" name="g">August</td>
+                       </tr>
+        
+                       <tr>
+                        <td><b>Year</b></td>
+                        <td>
+                            <select>
+                                <option>Select Year</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                
+        
+                            </select>
+                        </td>
+                       </tr>
+                 <tr>
+                    <td><b>Photo:</b></td><td><input type="file" name="data"></td>
+                 </tr>
+                <tr1><td><input  type="submit" name="submit"></td></tr1>
+                </table>
+            </form>
+            </center>
+            </div>
+        </div>
+</body>
+</html>

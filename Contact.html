@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contaact</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="/css/styles.css" rel="stylesheet" />
+  <style>
+@import url(https://fonts.googleapis.com/css?family=Inter:300);
+.Navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family:serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.Btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.Btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.Btn:hover{
+    color: #000;
+}
+
+.Btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+body{
+  padding:0;
+  margin:0;
+  font-family: 'Inter';
+}
+.vid-container{
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+}
+.bgvid.back {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+}
+.inner {
+  position: absolute;
+}
+.inner-container{
+  width:400px;
+  height:400px;
+  position:absolute;
+  top:calc(50vh - 200px);
+  left:calc(50vw - 200px);
+  overflow:hidden;
+  border-radius: 7px;
+}
+.box{
+  position:absolute;
+  height:100%;
+  width:100%;
+  font-family:'Inter';
+  color:#fff;
+  background:rgba(0, 0, 0, 28%);
+  padding:30px 0px;
+  border-radius: 7px;
+}
+.box h1{
+  text-align:center;
+  margin:30px 0;
+  font-size:30px;
+}
+.box input{
+  display:block;
+  width:300px;
+  margin:20px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.2);
+  color:#fff;
+  border-radius: 7px;
+  border:0;
+}
+input::placeholder {
+  color: rgb(182, 171, 163);
+}
+.signup{
+  color: rgb(182, 171, 163)!important;
+}
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+  outline:none;
+}
+.box button{
+  background:#2d2f36;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:330px;
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+  border-radius: 7px;
+}
+.box button:active{
+  background:#000000;
+}
+.box p{
+  font-size:14px;
+  text-align:center;
+}
+.box p span{
+  cursor:pointer;
+  color:#666;
+}
+
+@media screen and (max-width: 986px) {
+  .bgvid{
+height: 100px!important;
+  }
+}
+
+@media screen and (min-width: 986px) {
+  .bgvid.back {
+width: 100%;
+  }
+}
+  
+
+.vid-container{
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+}
+.bgvid.back {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+}
+.inner {
+  position: absolute;
+}
+.inner-container{
+  width:400px;
+  height:400px;
+  position:absolute;
+  top:calc(50vh - 200px);
+  left:calc(50vw - 200px);
+  overflow:hidden;
+  border-radius: 7px;
+}
+.box{
+  position:absolute;
+  height:100%;
+  width:100%;
+  font-family:'Inter';
+  color:#fff;
+  background:rgba(0, 0, 0, 28%);
+  padding:30px 0px;
+  border-radius: 7px;
+}
+.box h1{
+  text-align:center;
+  margin:30px 0;
+  font-size:30px;
+}
+.box input{
+  display:block;
+  width:300px;
+  margin:20px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.2);
+  color:#fff;
+  border-radius: 7px;
+  border:0;
+}
+input::placeholder {
+  color: rgb(182, 171, 163);
+}
+.signup{
+  color: rgb(182, 171, 163)!important;
+}
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+  outline:none;
+}
+.box button{
+  background:#2d2f36;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:330px;
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+  border-radius: 7px;
+}
+.box button:active{
+  background:#000000;
+}
+.box p{
+  font-size:14px;
+  text-align:center;
+}
+.box p span{
+  cursor:pointer;
+  color:#666;
+}
+
+@media screen and (max-width: 986px) {
+  .bgvid{
+height: 100px!important;
+  }
+}
+
+@media screen and (min-width: 986px) {
+  .bgvid.back {
+width: 100%;
+  }
+}
+
+  </style>
+
+</head>
+<body>
+  <div class="main">
+    <div class="Navbar">
+        <div class="icon">
+            <h2 class="logo">ITCourses</h2>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+          </div>
+            
+</div>
+<div class="vid-container">
+  <video id="Video1" class="bgvid back" autoplay="true" muted="muted" preload="auto" loop>
+      <source src="video/mainVideo.mp4" type="video/mp4">
+  </video>
+  <div class="inner-container">
+    <div class="box">
+      <h1>Login</h1>
+      <input type="text" placeholder="Username"/>
+      <input type="text" placeholder="Password"/>
+      <button>Login</button>
+      <p>Not a member? <span class="signup">Sign Up</span></p>
+    </div>
+  </div>
+</div>
+<script src="/js/main.js"></script>
+         
+</body>
+</html>
+
+
